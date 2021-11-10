@@ -40,7 +40,7 @@
             <div class="col-lg-6">
                 <div class="signup-content-wrapper">
                     <div class="section-title">
-                        <h3 class="mb-20">Celebra junto con nosotros nuestro aniversario número 50</h3>
+                        <h3 class="mb-20">Celebra junto con nosotros nuestro aniversario número 19</h3>
                         <p>Tu eres nuestro invitado especial, ingresa tu número de cédula y participa para ganar increíbles premios.</p>
                     </div>
                     <div class="image">

@@ -4,7 +4,7 @@
         <div class="p-4 p-md-5 mb-4 text-white  bg-dark">
             <div class="col px-0">
                 <p class="lead" style="font-size: 2.25rem; font-weight: 400; line-height: 38px;"> Responde de manera correcta las preguntas para poder participar en el sorteo.</p>
-                <p>*Recuerda que si no conoces alguna de las respuestas podrás encontrarlas navegando nuestra pagina WEB</p>
+                <p>*Recuerda que si no conoces alguna de las respuestas podrás encontrarlas navegando nuestra página WEB</p>
             </div>
         </div>
 
