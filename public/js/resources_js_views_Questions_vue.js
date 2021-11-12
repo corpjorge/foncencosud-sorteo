@@ -249,7 +249,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     , ["id", "value", "name", "onUpdate:modelValue"]), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelRadio, $data.responses['question_' + index]]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
       "class": "form-check-label",
       "for": question.id + '_' + question.choices.a
-    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.choices.a ? question.choices.a : ''), 9
+    }, " a) " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.choices.a ? question.choices.a : ''), 9
     /* TEXT, PROPS */
     , ["for"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
       "class": "form-check-input",
@@ -265,7 +265,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     , ["id", "value", "name", "onUpdate:modelValue"]), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelRadio, $data.responses['question_' + index]]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
       "class": "form-check-label",
       "for": question.id + '_' + question.choices.b
-    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.choices.b), 9
+    }, " b) " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.choices.b), 9
     /* TEXT, PROPS */
     , ["for"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
       "class": "form-check-input",
@@ -281,7 +281,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     , ["id", "value", "name", "onUpdate:modelValue"]), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelRadio, $data.responses['question_' + index]]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
       "class": "form-check-label",
       "for": question.id + '_' + question.choices.c
-    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.choices.c), 9
+    }, " c) " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.choices.c), 9
     /* TEXT, PROPS */
     , ["for"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
       "class": "form-check-input",
@@ -297,7 +297,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     , ["id", "value", "name", "onUpdate:modelValue"]), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelRadio, $data.responses['question_' + index]]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
       "class": "form-check-label",
       "for": question.id + '_' + question.choices.d
-    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.choices.d), 9
+    }, " d) " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(question.choices.d), 9
     /* TEXT, PROPS */
     , ["for"])])])])])]);
   }), 256

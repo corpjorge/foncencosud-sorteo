@@ -24,14 +24,14 @@
                             <input class="form-check-input" type="radio" :id="question.id+'_'+question.choices.a"
                                    :value="question.id+'_a'" :name="question.id" v-model="responses['question_'+index]">
                             <label class="form-check-label" :for="question.id+'_'+question.choices.a">
-                                {{ question.choices.a ? question.choices.a : '' }}
+                                a) {{ question.choices.a ? question.choices.a : '' }}
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" :id="question.id+'_'+question.choices.b"
                                    :value="question.id+'_b'" :name="question.id" v-model="responses['question_'+index]">
                             <label class="form-check-label" :for="question.id+'_'+question.choices.b">
-                                {{ question.choices.b }}
+                                b) {{ question.choices.b }}
                             </label>
                         </div>
                     </div>
@@ -40,14 +40,14 @@
                             <input class="form-check-input" type="radio" :id="question.id+'_'+question.choices.c"
                                    :value="question.id+'_c'" :name="question.id" v-model="responses['question_'+index]">
                             <label class="form-check-label" :for="question.id+'_'+question.choices.c">
-                                {{ question.choices.c }}
+                                c) {{ question.choices.c }}
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" :id="question.id+'_'+question.choices.d"
                                    :value="question.id+'_d'" :name="question.id" v-model="responses['question_'+index]">
                             <label class="form-check-label" :for="question.id+'_'+question.choices.d">
-                                {{ question.choices.d }}
+                                d) {{ question.choices.d }}
                             </label>
                         </div>
                     </div>
