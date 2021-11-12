@@ -116,7 +116,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
     "font-weight": "400",
     "line-height": "38px"
   }
-}, " Responde de manera correcta las preguntas para poder participar en el sorteo."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "*Recuerda que si no conoces alguna de las respuestas podrás encontrarlas navegando nuestra página WEB")])], -1
+}, " Responde de manera correcta las 3 preguntas para poder participar en el sorteo."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "*Recuerda que si no conoces alguna de las respuestas podrás encontrarlas navegando nuestra página WEB")])], -1
 /* HOISTED */
 );
 
