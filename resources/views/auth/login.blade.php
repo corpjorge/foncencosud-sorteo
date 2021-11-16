@@ -81,7 +81,7 @@
                                    placeholder="Ingrese cédula">
                             <input type="hidden" name="password" value="password">
                         </div>
-                        <a href="/assets/FEDEF.pdf" target="_blank">Clic para ver términos y condiciones </a>
+                        <a href="/assets/terminos.pdf" target="_blank">Clic para ver términos y condiciones </a>
                         <div class="form-check mb-25">
                             <input class="form-check-input" type="checkbox" id="agree" name="condiciones">
                             <label class="form-check-label" for="agree">
