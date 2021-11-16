@@ -150,7 +150,7 @@
             },
             methods: {
                 async getWinners(){
-                     await axios.get('/niw').then(response => { this.winners = response.data })
+                     await axios.get('/win').then(response => { this.winners = response.data })
                 },
                 async getTurn(){
                     await axios.get('/nrut').then(response => { this.turn = response.data })
