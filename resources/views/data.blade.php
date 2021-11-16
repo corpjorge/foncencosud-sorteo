@@ -91,7 +91,7 @@
                         <th scope="row">@{{ winner.id }}</th>
                         <td>@{{ winner.verify }}</td>
                         <td>@{{ winner.user.name }}</td>
-                        <td>@{{ winner.user.name }}</td>
+                        <td>@{{ winner.user.zone }}</td>
                         <td>@{{ winner.updated_at }}</td>
                     </tr>
                     </tbody>
