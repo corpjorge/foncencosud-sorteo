@@ -82,7 +82,7 @@
                         <th scope="col">#</th>
                         <th scope="col">validar</th>
                         <th scope="col">Nombre</th>
-                        <th scope="col"Zona</th>
+                        <th scope="col">Zona</th>
                         <th scope="col">Fecha</th>
                     </tr>
                     </thead>
@@ -91,7 +91,7 @@
                         <th scope="row">@{{ winner.id }}</th>
                         <td>@{{ winner.verify }}</td>
                         <td>@{{ winner.user.name }}</td>
-                        <td>@{{ winner.user.zone }}</td>
+                        <td>@{{ winner.user.name }}</td>
                         <td>@{{ winner.updated_at }}</td>
                     </tr>
                     </tbody>
