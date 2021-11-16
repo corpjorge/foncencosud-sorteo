@@ -18,7 +18,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/congratulations', [SlotsController::class, 'congratulations']);
     Route::get('/niw', [SlotsController::class, 'close']);
     Route::get('/roulette', [WinnerController::class, 'data']);
-    Route::get('/niw', [WinnerController::class, 'winners']);
+    Route::get('/win', [WinnerController::class, 'winners']);
     Route::get('/nrut', [WinnerController::class, 'turn']);
     Route::get('/pants', [WinnerController::class, 'participants']);
     Route::post('/set', [WinnerController::class, 'setTurn']);
