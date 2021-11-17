@@ -108,18 +108,18 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Nombre</th>
-                        <th scope="col">turn</th>
-                        <th scope="col">win</th>
                         <th scope="col">zona</th>
+                        <th scope="col">turn</th>
+                        <th scope="col">win</th>                        
                     </tr>
                     </thead>
                     <tbody>
                     <tr  v-for="participant in participants">
                         <th scope="row">@{{ participant.id }}</th>
                         <td>@{{ participant.user.name }}</td>
-                        <td>@{{ participant.turn }}</td>
-                        <td>@{{ participant.winner }}</td>
                         <td>@{{ participant.user.zone }}</td>
+                        <td>@{{ participant.turn }}</td>
+                        <td>@{{ participant.winner }}</td>                        
                     </tr>
                     </tbody>
                 </table>
