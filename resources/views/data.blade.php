@@ -110,7 +110,7 @@
                         <th scope="col">Nombre</th>
                         <th scope="col">turn</th>
                         <th scope="col">win</th>
-                        <th scope="col">Fecha</th>
+                        <th scope="col">zona</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -119,7 +119,7 @@
                         <td>@{{ participant.user.name }}</td>
                         <td>@{{ participant.turn }}</td>
                         <td>@{{ participant.winner }}</td>
-                        <td>@{{ participant.created_at }}</td>
+                        <td>@{{ participant.user.zone }}</td>
                     </tr>
                     </tbody>
                 </table>
