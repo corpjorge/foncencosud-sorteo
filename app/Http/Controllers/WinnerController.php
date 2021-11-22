@@ -22,7 +22,7 @@ class WinnerController extends Controller
     public function winners()
     {
         if (auth()->user()->id === 1){
-            return Winner::orderBy('id', 'desc')->limit(20)->get()->load('user');
+            return Winner::orderBy('id', 'desc')->limit(4)->get()->load('user');
         }
 
         abort(404);
